@@ -49,8 +49,24 @@ let g:NERDTreeDirArrowCollapsible="~"
 " --- Just Some Notes ---
 " :PlugClean :PlugInstall :UpdateRemotePlugins
 "
+" :echo stdpath('data')
+" 
+" Go back to terminal...
+" cd into that data directory...
+"
+" (Note: for me the data directory was ~/.local/share/nvim/plugged)
+"
+" <you>@<hostname> <data>/coc.nvim $npm i && yarn install
+"
+" Make sure you have nodejs, npm, and yarn installed
+" on your system. Once you do, run npm install and 
+" yarn install in the data directory's coc.nvim directory
+"
 " :CocInstall coc-python
 " :CocInstall coc-clangd
+" :CocInstall coc-tsserver
+" :CocInstall coc-rust-analyzer
+" :CocInstall coc-sh 
 " :CocInstall coc-snippets
 " :CocCommand snippets.edit... FOR EACH FILE TYPE
 
